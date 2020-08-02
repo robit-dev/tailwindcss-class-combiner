@@ -52,4 +52,4 @@ const getClassPrefix = ( classes ) => {
     return classes
 }
 
-export default mergeClasses
+module.exports = mergeClasses

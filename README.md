@@ -7,7 +7,7 @@ CSS classes in the component.
 # Installation
 
 This utility can be installed using npm:
-`npm i tailwindcss-class-combiner --save`
+`npm i @robit-dev/tailwindcss-class-combiner --save`
 
 # Usage
 
@@ -20,7 +20,7 @@ class name like so `className={ mergeClasses(defaultClasses, className) }`.
 Here's a simple `Card` component that uses the utility:
 
 ```
-import mergeClasses from "robit-dev/tailwindcss-class-combiner"
+import mergeClasses from "@robit-dev/tailwindcss-class-combiner"
 
 const Card = ({ children, className }) => {
     const defaultClasses = 'rounded-xl p-4 bg-white'

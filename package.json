@@ -1,0 +1,26 @@
+{
+  "name": "@robit-dev/tailwindcss-class-combiner",
+  "version": "1.0.0",
+  "description": "A simple utility for combining and overriding class names in React components, with additional functionality for tailwindcss users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robit-dev/tailwindcss-class-combiner.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "react",
+    "combine",
+    "override"
+  ],
+  "author": "Robit Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robit-dev/tailwindcss-class-combiner/issues"
+  },
+  "homepage": "https://github.com/robit-dev/tailwindcss-class-combiner#readme"
+}
