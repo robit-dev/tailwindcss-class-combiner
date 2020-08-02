@@ -62,3 +62,11 @@ we can override default tailwindcss classes in a component by matching and then 
 based on the class prefix. This method also preserves screen size, and state directives
 like `lg:` or `hover:` because it only splits and replaces on exact matches preceeding a 
 hyphen.
+
+## License
+This code is released under the MIT License.
+
+## Stack
+<b>Built with</b> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+MIT © [Robit Development, LLC](https://robit.dev)
