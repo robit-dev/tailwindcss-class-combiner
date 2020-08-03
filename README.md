@@ -19,7 +19,7 @@ class name like so `className={ mergeClasses(defaultClasses, className) }`.
 
 Here's a simple `Card` component that uses the utility:
 
-```
+```javascript
 import mergeClasses from "@robit-dev/tailwindcss-class-combiner"
 
 const Card = ({ children, className }) => {
@@ -37,7 +37,7 @@ export default Card
 Then, when using the component elsewhere, we'll simply provide some new classes via the `className` 
 prop.
 
-```
+```html
 <Card className="m-4 p-8">
     This is a Card component with added and overridden classes!
 </Card>
@@ -45,8 +45,8 @@ prop.
 
 The resulting classes would then be:
 
-```
-class="rounded-xl p-8 bg-white m-4"
+```html
+<Card class="rounded-xl p-8 bg-white m-4"></Card>
 ```
 
 Notice how the new class `m-4` was added to the class list, while the `p-4` tailwindcss class 
